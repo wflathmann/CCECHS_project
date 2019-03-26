@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Nova+Flat');
+
+.neon{
+  position: absolute; 
+  top: 100px;
+  
+  margin: 0;
+  
+  color: #FF0000;
+  text-shadow: 0 0 50px #A61212;
+  font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+  position: fixed; 
+  top: 100px;
+  text-align:center;
+  z-index:9998;
+  width:100%;
+  height:100%;
+}
+.right {
+  float: right;
+}
+.left{
+  float: left;
+}
+.marg {
+  margin-right: 75px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100vw;
+  background-color: #b80000;
+  z-index: 1;
+  max-height: 58px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none !important;
+}
+.largeContentBox {
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+  padding-top: 50px;
+  background-color: white;
+} 
+.largeContentBoxSemiTransparent{
+  width: 100%;
+  height: 70vw;
+  overflow: hidden;
+  padding: 50px;
+  padding-bottom: 70px;
+  background:rgba(255,255,255,0.5);
+}
+.largeContentBoxTransparent{
+  width: 100%;
+  height: 90vw;
+  overflow: hidden;
+  padding: 50px;
+  padding-bottom: 70px;
+}
+
+.contentHead {
+  font-size: 100px;
+}
+.contentSubHead {
+  font-size: 15px;
+}
+.subContent {
+  font-size: 11px;
+}
+.transparentBox {
+  width: 100vw;
+  height: 150px;
+  overflow: hidden;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.desktopNav {
+  display:none;
+}
+.mobileNav {
+  display:block;
+}
+.hid {
+  display: none;
+}
+.vis {
+  display: block !important;
+}
+.fiftyPercent {
+  width: 50%;
+  display: inline-block;
+}
+@media only screen and (max-width: 900px) {
+  .footerObj {
+    display: none;
+  }
+  .mobNav {
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    z-index:99;
+  }
+  html, body {
+    background-size: 150%;
+  }
+  .hid {
+    display: block !important;
+  }
+  .mobNv {
+    width: 100vw;
+    height: 30px;
+    background-color: white;
+  }
+  .right {
+    display: none;
+  }
+  ul {
+   display:none;
+  }
+  ul:not(.kvas) {
+    display:block !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+    color: black !important;
+  }
+  li a {
+    display: block;
+    color: black !important;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li {
+    float: none !important;
+  }
+  .row {
+      display: block;
+  }
+  .column {
+    flex:none;
+  }
+  .groupProfile {
+    margin-left: unset !important;
+    margin-right: unset !important;
+    right: unset !important;
+    min-width: 270px;
+    text-align: center;
+  }
+  .groupProfile:nth-child(even) {
+    top: 600px !important;
+    border-radius: 2px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    padding-bottom: 70px;
+    background-color: white;
+  }
+  .groupProfile:nth-child(odd) {
+    top: 100px !important;
+    border-radius: 2px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    padding-bottom: 70px;
+    width: 50%;
+    background-color: white;
+  }
+  .test.groupProfile:hover {
+    transition: unset !important;
+    transition-property: unset !important;
+    transition-duration: unset !important;
+    transition-timing-function: unset !important;
+    transition-delay: unset !important;
+    top: unset !important;
+  }
+  .groupCustomBox {
+    height: 200vh !important;
+  }
+}
+.dropdown {
+  background-color: none;
+}
+.dropdown-content {
+  display:none;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-width: 110px;
+}
+.dropdown-content a {
+  color: black !important;
+}
+.dropdown-content a:hover {background-color: #ddd}
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+}
+.groupProfile {
+  transition: all .12s ease-out;
+  transition-property: all;
+  transition-duration: 0.12s;
+  transition-timing-function: ease-out;
+  transition-delay: initial;
+  top: 20%;
+  border-radius: 2px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  padding-bottom: 70px;
+  background-color: white;
+}
+.groupProfile:hover {
+  transition: all .12s ease-out;
+  transition-property: all;
+  transition-duration: 0.12s;
+  transition-timing-function: ease-out;
+  transition-delay: initial;
+  top: 19.5%;
+}
