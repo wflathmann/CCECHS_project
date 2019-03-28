@@ -1,19 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Nova+Flat');
 
 .neon{
-  position: absolute; 
+  position: absolute;
   top: 100px;
-  
   margin: 0;
-  
   color: #0000FF;
-  text-shadow: 0 0 50px #1212A6;
+  text-shadow: 0px 0px 20px #1212A6;
   font-family: 'Lato', sans-serif;
 
 }
-
+.nav_sel{
+  font-size:30px;
+  color:#0000FF;
+  text-decoration:none;
+  opacity:.8;
+}
+.nav_sel:hover{
+  text-shadow: 0px 0px 20px rgba(0,0,255);
+  opacity:1;
+  transform:translate(2%,2%);
+}
+.tip_text{
+  font-size:30px;
+  color:#0000FF;
+  text-decoration:none;
+  opacity:1;
+}
+-webkit-scrollbar {
+	width: 12px;
+	background-color: #0000FF;
+  opacity: .9;
+}
 h1 {
-  position: fixed; 
+  position: fixed;
   top: 100px;
   text-align:center;
   z-index:9998;
@@ -35,8 +54,7 @@ ul {
   padding: 0;
   position: fixed;
   width: 100vw;
-  background-color: #b80000;
-  z-index: 1;
+  opacity: 1;
   max-height: 58px;
 }
 
@@ -56,8 +74,9 @@ li a {
   height: 50vw;
   overflow: hidden;
   padding-top: 50px;
-  background-color: white;
-} 
+  background-color: black;
+  background:rgba(0,0,0,0.5);
+}
 .largeContentBoxSemiTransparent{
   width: 100%;
   height: 70vw;
@@ -212,11 +231,11 @@ li a {
   display:none;
   background-color: #f1f1f1;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 11;
   max-width: 110px;
 }
 .dropdown-content a {
-  color: black !important;
+  color: #0000FF;
 }
 .dropdown-content a:hover {background-color: #ddd}
 .row {

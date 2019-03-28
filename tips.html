@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html class="gr__jqueryscript_net"><head>
+    <title>Effective Memory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="perspectiveRules.css" rel="stylesheet">
+    <link href="Universal.css" rel="stylesheet">
+    <link hred="glitch.css" rel="stylesheet">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/F205B6E1-9A6E-3445-9AB3-E323E4A70FAF/main.js" charset="UTF-8"></script><style>
+html,body {
+  overflow:hidden;
+}
+</style>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/F205B6E1-9A6E-3445-9AB3-E323E4A70FAF/main.js" charset="UTF-8"></script></head>
+<body data-gr-c-s-loaded="true">
+
+<ul class="kvas" id="ul" style="position:absolute;z-index:10;">
+  <li class="right"><a href="tips.html" class="nav_sel">Ten Tips</a></li>
+  <li class="right"><a href="index.html" class="nav_sel">Home</a></li>
+</ul>
+
+  <div>
+    <div class="largeContentBox" style="margin-top:15%; margin-left: 10%; margin-right: 10%;position: absolute; z-index:11; ">
+      <a href="tip1.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 1</a>
+      <a href="tip2.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 2</a>
+      <a href="tip3.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 3</a>
+      <a href="tip4.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 4</a>
+      <a href="tip5.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 5</a>
+      <a href="tip6.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 6</a>
+      <br></br>
+      <br></br>
+      <a href="tip7.html" class="nav_sel" style="font-size:50pt; margin-left: 5%;">Tip 7</a>
+      <a href="tip8.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 8</a>
+      <a href="tip9.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 9</a>
+      <a href="tip10.html" class="nav_sel" style="font-size:50pt; margin-left: 5%">Tip 10</a>
+    </div>
+  <div id="demo1">
+  <img src="Blk-wallpaper.jpg" >
+  <div id="particle-target" class="ld-3d-object" style="transform: translate3d(-24.16px, -25.4px, 440px); width:652.32px; height:685.80px;">
+    <canvas  width="652" height="686" style="position: absolute;"></canvas>
+  </div>
+
+  </div>
+  <a style="color:white;font-size:10pt;left:.5%;bottom:.5%;position:absolute;z-index:11">This site is owned and operated by William Flathmann, Antwione Holden, and Ethan Dodd </a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="jquery.logosDistort.min.js"></script>
+<script src="polygonizr.min.js" > </script>
+<script>
+  options = {
+            effectWeight: 1,
+            outerBuffer: 1.08,
+            elementDepth: 220
+        };
+  $("#demo1").logosDistort(options);
+  $('#particle-target').polygonizr({
+    restNodeMovements: 1/1000,
+    numberOfNodes: 40,
+    animationFps: 60,
+    nodeDotColor: "0, 0, 176",
+    nodeLineColor: "0, 0, 255",
+    nodeFillColor: "0, 0, 115",
+    nodeLineAlpha: 1.0,
+    nodeDotAlpha: 1.0,
+    nodeFillAlpha: 1.0,
+  });
+</script>
+
+
+
+</body>
+</html>
